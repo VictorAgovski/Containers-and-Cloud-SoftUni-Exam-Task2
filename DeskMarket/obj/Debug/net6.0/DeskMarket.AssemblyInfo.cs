@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-DeskMarket-827aa371-cf1d-4b52-96c7-d1b66594c1fe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeskMarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
